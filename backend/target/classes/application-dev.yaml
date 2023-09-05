@@ -1,0 +1,7 @@
+users:
+  db:
+    url: jdbc:h2:mem:Bank
+    user_name: test
+    password: test
+  liquibase:
+    contexts: local
